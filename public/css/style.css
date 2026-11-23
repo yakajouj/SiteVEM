@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Base";
+    src: url("../font/Arimo-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Gras";
+    src: url("../font/Arimo-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Italique";
+    src: url("../font/Arimo-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Italique gras";
+    src: url("../font/Arimo-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Italique giga gras";
+    src: url("../font/Arimo-BoldItalic.ttf");
+}
+
+html, body {
+    margin: 0;
+    font-family: "Base", serif;
+}
+
+.liste_case {
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+header {
+    background-color: #535353;
+    color: white;
+}
+
+.case {
+
+}
