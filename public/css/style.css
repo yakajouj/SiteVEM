@@ -23,23 +23,95 @@
     src: url("../font/Arimo-BoldItalic.ttf");
 }
 
-html, body {
+@font-face {
+    font-family: "Giga gras";
+    src: url("../font/Arimo-Bold.ttf");
+}
+h1 {
+    margin: 0;
+}
+
+html, body{
     margin: 0;
     font-family: "Base", serif;
 }
 
 .liste_case {
-    gap: 5vw;
+    gap: 6vw;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
 header {
-    background-color: #535353;
+    background-color: #9057fb;
     color: white;
+    display: flex;
+    padding-left: 1.1vw;
+    height: 10vh;
 }
 
-.case {
+.titre_header {
+    font-family: "Gras", serif;
+    font-size: 2.6rem;
+    padding-right: 8vw;
+    margin: 0;
+    color: black;
+}
 
+.sous_titre_header {
+    font-family: "Giga gras", serif;
+    font-size: 1.4rem;
+    margin: 0;
+    color: black;
+}
+
+.case_header .simple {
+    margin: 0;
+
+}
+
+.simple p {
+    font-size: 1.15rem;
+}
+
+.logo_header img {
+    display: flex;
+    height: auto;
+    width: 9.9vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenu_presentation {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+}
+
+.contenu_presentation h1 {
+    padding: 3.2vh;
+    font-size: 4rem;
+}
+
+.contenu_presentation img {
+    width: 51%;
+    height: auto;
+    margin: 1.5vh;
+}
+
+.qui_presentation {
+    padding: 4%;
+}
+
+.qui_presentation h1 {
+    font-size: 3rem;
+}
+
+.qui_presentation p {
+    font-size: 1.3rem;
 }

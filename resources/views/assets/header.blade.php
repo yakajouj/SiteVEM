@@ -7,17 +7,25 @@
 </head>
 <body>
     <header>
-    <span class="liste_case">
-        <span class="case">
+        <div class="logo_header">
+            <img src="{{asset('media/logo.png')}}">
+        </div>
+    <div class="liste_case">
+        <div class="case_header">
+            <p class="titre_header">VEM</p>
+            <p class="sous_titre_header">L'avenir se joue au Vercors</p>
+        </div>
+        <div class="case_header simple">
             <p>Présentation</p>
-        </span>
-        <span class="case">
+        </div>
+        <div class="case_header simple">
+            <p>Découvrir VEM</p>
+        </div>
+        <div class="case_header simple">
             <p>Nos actualités</p>
-        </span>
-        <span class="case">
+        </div>
+        <div class="case_header simple">
             <p>Nous contacter</p>
-        </span>
-    </span>
+        </div>
+    </div>
     </header>
-</body>
-</html>
